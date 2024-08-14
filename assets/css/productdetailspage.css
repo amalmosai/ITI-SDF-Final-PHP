@@ -1,0 +1,52 @@
+
+
+.productdetailspage{
+    padding-top: 20px;
+    line-height: 200%;
+
+    
+    
+  }
+  .productdetailspage .checked{
+    color: orange;
+  }
+ 
+  .productdetailspage ul{
+    list-style: none;
+  }
+  
+  .productdetailspage .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .productdetailspage img{
+    border: 1px solid gray;
+    border-radius: 20px;
+
+  }
+  .productdetailspage .product_addtocart_btn{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: var(--green, #a4c63b);
+    text-align: center;
+    cursor: pointer;
+    /* width: 40%; */
+    font-size: 18px;
+    margin: 10px 0;
+    border-radius:5px;
+  
+  }
+  .productdetailspage .product_addtocart_btn:hover{
+    transform: scale(1.02);
+  }
+
+  .productdetailspage .EGP{
+
+    color:var(--green, #a4c63b);
+  }
+
+
+

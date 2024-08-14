@@ -1,0 +1,192 @@
+/* ======== MainColors ====== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+    --green: #a4c63b;
+    --white: #fff;
+    --dark: #333;
+}
+
+/* Our Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+.bg-w{
+    background-color: #fff;
+}
+/* Start In User page hEADER */
+.user-page .user-info{
+    background-color: var(--green);
+}
+.user-page .user-info header{
+    padding: 10px;
+    /* height: px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-page .user-info .container .user-img{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.res-img{
+width: 100%;
+}
+.res-img img{
+    width: 100%;
+}
+.user-page .user-info .container .user-img img {
+    width: 100%;
+    height: 100%;
+}
+.res-img [type = "file"]{
+    display: block;}
+.res-img label{ 
+    width: 100%;
+    background-color: #f0f0f0;;
+    color: #000;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    cursor: pointer;
+    opacity: .3;
+    line-height: 32px;
+}
+.uname{
+    color: #333;
+}
+.profile-stat-title {
+    color: #7f90a4;
+    font-size: 25px;
+    text-align: center;
+}
+.uppercase {
+    text-transform: uppercase!important;
+}
+
+.profile-stat-text {
+    color: #5b9bd1;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+.profile-desc-title {
+    color: #7f90a4;
+    font-size: 17px;
+    font-weight: 600;
+}
+.user-page .user-info .container .user-img .res-img:hover label{
+    display: block;
+}
+.user-page .user-info .container .user-menu{
+    display: flex;
+}
+.user-page .user-info .container .user-menu > div{
+    margin-left: 20px;
+}
+.user-page .user-info .container .user-menu div button{
+    color: var(--green);
+    font-size: 30px;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+/* Start In User page hEADER */
+.user-page main .container{
+    display: flex;
+}
+.user-page .container .left{
+    margin-top: 20px;
+    line-height: 1.8;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 20%);
+}
+.user-page main .container .right{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.user-page main .container .right nav{
+    display: flex;
+    width: 100%;
+
+}
+.user-page main .container .right nav a{
+    color: var(--dark);
+    padding: 10px;
+
+}
+.user-page main .container nav  div{
+    padding: 10px 0;
+    box-shadow: 2px 3px 1px rgb(0 0 0 / 20%);
+
+
+}
+article{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.user-products{
+    display:none;
+}
+.user-products .table tbody img,
+.user-products div img{
+    width: 200px;
+    height: 200px;
+}
+.active{
+    display: block; 
+}
+/* PROFILE SIDEBAR */
+.panel ul li a{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    color: #89817f;
+}
+.panel ul li a:hover{
+    border-left: 3px solid var(--green);
+}
+/* panel-body */
+.panel-body{
+    margin-bottom: 25px;
+}
+.panel-body label{
+    margin-bottom: 10px;
+}
+/* table your items */
+.pending{
+    color: orange !important ;
+    font-weight: bold;
+}
+.approved{
+    color: #28a745 !important;
+    font-weight: bold;
+}
+.rejected{
+    color: #dc3545 !important;
+    font-weight: bold;
+}
